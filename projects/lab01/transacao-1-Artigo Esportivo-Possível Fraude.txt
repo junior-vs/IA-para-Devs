@@ -1,0 +1,9 @@
+Recomendação: 
+
+1. Acionar Setor Anti-Fraude: Devido à alta possibilidade de fraude identificada nesta transação, é altamente recomendável que o setor anti-fraude seja informado para investigação adicional.
+
+2. Notificar o Cliente: O cliente deve ser notificado o mais rápido possível sobre esta transação suspeita, para confirmar se a atividade é realmente fradulenta. 
+
+Classificação da Fraude: 
+
+Fraude por Transação Não Reconhecida: Este tipo de fraude envolve transações que não estão alinhadas com o padrão tradicional de compras do cliente. No caso em questão, a compra de valor elevado em um estabelecimento de esportes é uma irregularidade, bem como a localização da compra que não corresponde à residência habitual do cliente.
