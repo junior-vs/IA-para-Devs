@@ -4,4 +4,7 @@
 		2.  [[engenharia_prompt | Engenharia de Prompt]]
 	2. Conceitos
 		1. [[Token]]
-	3. 
+	3. Aulas
+		1. [[Aula 1 - Introdução e Historia]]
+		2. [[Aula 2 - Dados e Machine Learning]]
+		3. 
