@@ -6,7 +6,7 @@ O **desvio padrão** é uma das ferramentas mais úteis em estatísticas e apren
     
     $$μ=(x1+x2+⋯+xn)n\mu = \frac{(x_1 + x_2 + \dots + x_n)}{n}$$
     
-    Onde x1,x2,…,xnx_1, x_2, \dots, x_n são os valores do conjunto de dados e nn é o número de elementos.
+    Onde $$x1,x2,…,xnx_1, x_2, \dots, x_n$$ são os valores do conjunto de dados e n é o número de elementos.
     
 2. **Diferenças da média**: Subtrai-se a média de cada valor no conjunto de dados.
     
