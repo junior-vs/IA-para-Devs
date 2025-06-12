@@ -5,6 +5,6 @@
 	2. Conceitos
 		1. [[Token]]
 	3. Aulas
-		1. [[Aula 1 - Introdução e Historia]]
-		2. [[Aula 2 - Dados e Machine Learning]]
+		1. [[1.1 - Introdução e Historia]]
+		2. [[1.2 - Dados e Machine Learning]]
 		3. 
