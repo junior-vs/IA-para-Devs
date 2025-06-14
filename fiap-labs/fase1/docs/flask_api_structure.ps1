@@ -74,7 +74,7 @@ $files = @{
     "$projeto/docker/nginx.conf" = ""
     "$projeto/scripts/init_db.py" = ""
     "$projeto/scripts/seed_data.py" = ""
-    "$projeto/requirements.txt" = @"
+    "$projeto/requirements.example.txt" = @"
 Flask==3.0.0
 Flask-SQLAlchemy==3.1.1
 Flask-Migrate==4.0.5
@@ -91,7 +91,7 @@ marshmallow==3.20.1
 bcrypt==4.1.2
 gunicorn==21.2.0
 "@
-    "$projeto/requirements-dev.txt" = @"
+    "$projeto/requirements-dev.example.txt" = @"
 -r requirements.txt
 pytest==7.4.3
 pytest-flask==1.3.0
