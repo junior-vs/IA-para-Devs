@@ -1,7 +1,3 @@
-Claro! Vamos detalhar esse conceito de **correlação** com uma explicação simples e objetiva:
-
----
-
 ### 🔍 **O que é Correlação?**
 
 Correlação é uma **medida estatística** que indica **como duas variáveis estão relacionadas**. Ou seja, mostra **se e como uma variável muda quando a outra muda**.
