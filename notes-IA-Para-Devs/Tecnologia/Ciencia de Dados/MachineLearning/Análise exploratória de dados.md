@@ -28,7 +28,7 @@ Antes de analisar as relações entre variáveis, é preciso entender cada uma i
 
 #### 3. Análise de Relações entre Variáveis
 Aqui, começamos a buscar padrões e interdependências.
-- **A. [[Agrupamento de Dados (GroupBy)]]:**
+- **A. [[../../Matemática e Estatística/estatisticas/Agrupamento de Dados (GroupBy)]]:**
   - **Conceito:** Agrupar o dataset com base em uma ou mais variáveis categóricas para analisar uma métrica numérica (como a média, soma, etc.) dentro de cada grupo.
 	  -  A analogia aqui é simples: imagine uma planilha com as notas de todos os alunos da universidade. Se você quiser saber a nota média _por curso_, você não pode simplesmente calcular a média de toda a planilha. Primeiro, você precisa **agrupar** os alunos por "Curso" e, em seguida, **aplicar** a função de média a cada um desses grupos. É exatamente isso que o `groupby` faz, seguindo o padrão "Separar-Aplicar-Combinar" (_Split-Apply-Combine_). Esta é uma das operações mais poderosas no pandas.
   - **Breve Detalhe:** O exemplo da aula agrupa os dados por `estilo de carroceria` e `rodas motrizes` para comparar o `preço médio`. Isso ajuda a entender como diferentes combinações de categorias impactam a variável alvo.
