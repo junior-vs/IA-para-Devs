@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chatbot com OpenAI</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        #chat { border: 1px solid #ccc; padding: 10px; height: 300px; overflow-y: scroll; margin-bottom: 10px; }
+        #user-input { width: 80%; }
+        #send-btn { width: 18%; }
+    </style>
+</head>
+<body>
+    <h2>Chatbot com OpenAI</h2>
+    <div id="chat"></div>
+    <input type="text" id="user-input" placeholder="Digite sua mensagem..." autofocus />
+    <button id="send-btn">Enviar</button>
+    <script>
+        const chat = document.getElementById('chat');
+        const input = document.getElementById('user-input');
+        const btn = document.getElementById('send-btn');
+        function appendMessage(sender, text) {
+            chat.innerHTML += `<b>${sender}:</b> ${text}<br/>`;
+            chat.scrollTop = chat.scrollHeight;
+        }
+        btn.onclick = async function() {
+            const userMsg = input.value;
+            if (!userMsg) return;
+            appendMessage('Você', userMsg);
+            input.value = '';
+            const res = await fetch('/chat', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ message: userMsg })
+            });
+            const data = await res.json();
+            appendMessage('Bot', data.response);
+        };
+        input.addEventListener('keydown', function(e) {
+            if (e.key === 'Enter') btn.click();
+        });
+    </script>
+</body>
+</html>
