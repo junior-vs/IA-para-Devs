@@ -1,5 +1,22 @@
-# Created by https://www.toptal.com/developers/gitignore/api/python,venv,obsidian,visualstudiocode,pycharm+all
-# Edit at https://www.toptal.com/developers/gitignore?templates=python,venv,obsidian,visualstudiocode,pycharm+all
+# Created by https://www.toptal.com/developers/gitignore/api/venv,dotenv,python,pycharm+all,jupyternotebooks,visualstudiocode,obsidian
+# Edit at https://www.toptal.com/developers/gitignore?templates=venv,dotenv,python,pycharm+all,jupyternotebooks,visualstudiocode,obsidian
+
+### dotenv ###
+.env
+
+### JupyterNotebooks ###
+# gitignore template for Jupyter Notebooks
+# website: http://jupyter.org/
+
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Remove previous ipynb_checkpoints
+#   git rm -r .ipynb_checkpoints/
 
 ### Obsidian ###
 # config dir
@@ -88,7 +105,7 @@ fabric.properties
 # Ignore everything but code style settings and run configurations
 # that are supposed to be shared within teams.
 
-.idea/*
+idea/*
 
 !.idea/codeStyles
 !.idea/runConfigurations
@@ -172,11 +189,8 @@ docs/_build/
 target/
 
 # Jupyter Notebook
-.ipynb_checkpoints
 
 # IPython
-profile_default/
-ipython_config.py
 
 # pyenv
 #   For a library or package, you might want to ignore these files since the code is
@@ -216,7 +230,6 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
 .venv
 env/
 venv/
@@ -296,4 +309,4 @@ pip-selfcheck.json
 .history
 .ionide
 
-# End of https://www.toptal.com/developers/gitignore/api/python,venv,obsidian,visualstudiocode,pycharm+all
+# End of https://www.toptal.com/developers/gitignore/api/venv,dotenv,python,pycharm+all,jupyternotebooks,visualstudiocode,obsidian
