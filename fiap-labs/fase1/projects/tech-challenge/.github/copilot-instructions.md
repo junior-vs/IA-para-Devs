@@ -1,5 +1,5 @@
  # Geral Instructions for Copilot
- - use o portugues brasileiro como lingua principal
+ - use o portugues brasileiro para escrever os comentarios
 
 # Python Instructions for Copilot
  - escreva comentarios claros e concisos
