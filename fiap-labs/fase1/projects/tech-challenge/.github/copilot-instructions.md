@@ -6,4 +6,4 @@
  - sempre utilize f-strings para formatar strings
  - se necessario, utilizar try-except-else-finally para tratamento de exceções
  - de preferencia para programação funcional
- - de preferencia para lin
+ - em projetos jupyter notebook, seja mais conciso e direto no codigo, sem uso de try-except
