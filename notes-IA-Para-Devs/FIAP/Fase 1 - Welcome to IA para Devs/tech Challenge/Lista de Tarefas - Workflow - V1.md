@@ -17,7 +17,7 @@ Claro. Com base no dataset "Wisconsin Breast Cancer" e nos objetivos de EDA e Pr
 *  [ ]  **Tarefa 2.3: Validar Tipos de Dados:** Confirmar que as colunas numéricas estão com tipos de dados corretos (ex: `float64`) e que as colunas categóricas estão como `object` ou `category`. Corrigir se necessário.
 *  [ ]   **Tarefa 2.4: Verificar Duplicatas:** Checar se existem linhas completamente duplicadas no dataset e decidir sobre a estratégia de remoção, se houver.
 
-#### **Etapa 3: Análise Exploratória de Dados (EDA) - Análise Univariada**
+	#### **Etapa 3: Análise Exploratória de Dados (EDA) - Análise Univariada**
 
 *   [ ]  **Tarefa 3.1: Analisar a Variável Alvo (`diagnosis`):**
     *   **Descrição:** Calcular a frequência e a proporção de cada classe ('M' e 'B').
