@@ -6,6 +6,6 @@
 		2. Conceitos
 		3. [[Token]]
 		4. Aulas
-		5. [[1.1 - Introdução e Historia]]
-		6. [[1.2 - Dados e Machine Learning]]
+		5. [[FIAP/Fase 1 - Welcome to IA para Devs/Aulas/modulo1-2/1.1 - Introdução e Historia]]
+		6. [[FIAP/Fase 1 - Welcome to IA para Devs/Aulas/modulo1-2/1.2 - Dados e Machine Learning]]
 		7. 
