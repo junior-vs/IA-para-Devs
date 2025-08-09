@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"acea17c77cb59f8a","type":"text","text":"Introdução e Conceito principais","x":-230,"y":-400,"width":250,"height":60},
+		{"id":"0e60da8cf03b6086","type":"text","text":"Protocolo de Contexto de Modelo (MCP)","x":-660,"y":-400,"width":250,"height":60},
+		{"id":"380c7780adc83030","type":"file","file":"Tecnologia/MCP/Conceitos básicos do MCP.md","x":140,"y":-680,"width":400,"height":400},
+		{"id":"63a7c796bdb4f096","type":"file","file":"Tecnologia/MCP/Arquitetura do MCP.md","x":140,"y":-240,"width":400,"height":400},
+		{"id":"66d243453895647c","type":"file","file":"Tecnologia/MCP/Fluxo Básico de Operação.md","x":140,"y":300,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"16ffe8bc8b4e708e","fromNode":"0e60da8cf03b6086","fromSide":"right","toNode":"acea17c77cb59f8a","toSide":"left"},
+		{"id":"54d9e4af004dcd67","fromNode":"acea17c77cb59f8a","fromSide":"right","toNode":"380c7780adc83030","toSide":"left"},
+		{"id":"324573893d43ba94","fromNode":"acea17c77cb59f8a","fromSide":"right","toNode":"63a7c796bdb4f096","toSide":"left"},
+		{"id":"bfcd1a362cb3d83f","fromNode":"acea17c77cb59f8a","fromSide":"right","toNode":"66d243453895647c","toSide":"left"}
+	]
+}
